@@ -17,6 +17,9 @@ export default class Player {
     draw(context){
         context.drawImage(this.image, this.width * this.frameX, this.height * this.frameY, this.width, this.height, this.x, this.y, this.width, this.height);
     }
+    update(input){
+        this.currentState.handleInput(input);
+    }
     setState(state){
         this.currentState = this.states[state];
         this.currentState.enter();
