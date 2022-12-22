@@ -1,8 +1,10 @@
+import { StandingLeft, StandingRight } from "./state";
+
 export default class Player {
     constructor(gameWidth, gameHeight){
         this.gameWidth = gameWidth;
         this.gameHeight = gameHeight;
-        this.states = [];
+        this.states = [new StandingLeft(), new StandingRight()];
         this.currentState = this.states[0];
         this.image = document.getElementById('dogImage');
         this.width = 200;
