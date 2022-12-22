@@ -30,7 +30,7 @@ export class StandingRight extends State {
     enter(){
         this.player.frameY = 0;
     }
-    handleInput(){
+    handleInput(input){
         if (input === 'PRESS left') this.player.setState(states.STANDING_LEFT);
     }
 }
