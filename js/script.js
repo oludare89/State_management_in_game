@@ -9,5 +9,5 @@ window.addEventListener('load', function(){
     canvas.height = window.innerHeight;
 
     const player = new Player(canvas.width, canvas.height);
-    console.log(player);
+    player.draw(ctx);
 });
