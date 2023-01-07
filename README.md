@@ -1,4 +1,4 @@
-# [Side scroller 2d game](https://oludare89.github.io/State_management_in_game/)
+# [State Management in Game](https://oludare89.github.io/State_management_in_game/)
 
 This is a website showing 10 different plyer states and switching between them with different criteria as part of the JavaScript Game Development Course for Beginners from freeCodeCamp.org by Frank's Laboratory.
 
