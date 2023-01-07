@@ -21,7 +21,7 @@ export default class Player {
         this.maxSpeed = 10;
         this.fps = 30;
         this.frameTimer = 0;
-        this.frameInterval = this.fps * 0.001;
+        this.frameInterval = 1000/this.fps;
     }
     draw(context, deltaTime){
         if (this.frameTimer > this.frameInterval){
